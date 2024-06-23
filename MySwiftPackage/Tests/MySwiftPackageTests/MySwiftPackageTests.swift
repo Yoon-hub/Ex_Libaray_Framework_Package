@@ -1,7 +1,7 @@
 import XCTest
-@testable import MyPakage
+@testable import MySwiftPackage
 
-final class MyPakageTests: XCTestCase {
+final class MySwiftPackageTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

@@ -16,7 +16,6 @@
 		67F13BC02C27ACAC009BF7C8 /* libMyStaticLibaray.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F13BBF2C27ACAC009BF7C8 /* libMyStaticLibaray.a */; };
 		67F13C542C283745009BF7C8 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F13C532C283745009BF7C8 /* MyFramework.framework */; };
 		67F13C552C283745009BF7C8 /* MyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67F13C532C283745009BF7C8 /* MyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67F13C582C2837D9009BF7C8 /* MyPakage in Frameworks */ = {isa = PBXBuildFile; productRef = 67F13C572C2837D9009BF7C8 /* MyPakage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,7 +52,6 @@
 			files = (
 				67F13BC02C27ACAC009BF7C8 /* libMyStaticLibaray.a in Frameworks */,
 				67F13C542C283745009BF7C8 /* MyFramework.framework in Frameworks */,
-				67F13C582C2837D9009BF7C8 /* MyPakage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +116,6 @@
 			);
 			name = Ex_Libaray_Framework_SwiftPackage;
 			packageProductDependencies = (
-				67F13C572C2837D9009BF7C8 /* MyPakage */,
 			);
 			productName = Ex_Libaray_Framework_SwiftPackage;
 			productReference = 67F13B942C27ABDB009BF7C8 /* Ex_Libaray_Framework_SwiftPackage.app */;
@@ -400,13 +397,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		67F13C572C2837D9009BF7C8 /* MyPakage */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = MyPakage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 67F13B8C2C27ABDB009BF7C8 /* Project object */;
 }
