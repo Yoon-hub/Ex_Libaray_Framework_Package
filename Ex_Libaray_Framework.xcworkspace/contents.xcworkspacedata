@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MyPakage">
+   </FileRef>
+   <FileRef
+      location = "group:MyFramework/MyFramework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyStaticLibaray/MyStaticLibaray.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Ex_Libaray_Framework_SwiftPackage/Ex_Libaray_Framework_SwiftPackage.xcodeproj">
+   </FileRef>
+</Workspace>
